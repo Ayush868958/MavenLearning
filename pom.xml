@@ -14,14 +14,20 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-     <!-- Source: https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+    <!-- Source: https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
     <dependencies>
+
+        <!-- Source: https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.21.0</version>
-            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.12.2</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>
